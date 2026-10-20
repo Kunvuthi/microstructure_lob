@@ -1,0 +1,26 @@
+name: lob
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # core numerics / data
+  - numpy
+  - scipy
+  - pandas
+  - polars
+  - pyarrow
+  - numba
+  # econometrics / statistics
+  - statsmodels
+  - scikit-learn
+  # plotting
+  - matplotlib
+  - seaborn
+  - plotly
+  # notebooks
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  # dev
+  - pytest
+  - tqdm
